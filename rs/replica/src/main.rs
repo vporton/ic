@@ -65,6 +65,8 @@ fn main() -> io::Result<()> {
     #[cfg(all(target_os = "linux", target_arch = "x86_64"))]
     ic_backtrace::init();
 
+    env_logger::init();
+
     // At this point we need to setup a new process group. This is
     // done to ensure all our children processes belong to the same
     // process group (as policy wise in production we restrict setpgid
