@@ -20,7 +20,7 @@
     "@dfinity/principal": "~0.18.0",
     "@dfinity/response-verification": "^0.2.1",
     "idb": "^7.1.1",
-    "lit": "^2.6.1",
+    "lit": "^2.8.0",
     "pako": "^2.0.3"
   },
   "devDependencies": {
